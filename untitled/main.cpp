@@ -1,3 +1,5 @@
+/* --- Programme de recherche des nombres premiers par Erwann --- */
+
 #include <iostream>
 #include <vector>
 
@@ -44,3 +46,7 @@ void affichageNombres(vector<int> nbPremiers)
     for(int k = 0; k < nbPremiers.size(); k++)
         cout<<nbPremiers[k]<<endl;
 }
+
+/* --- Fin de programme --- */
+
+
